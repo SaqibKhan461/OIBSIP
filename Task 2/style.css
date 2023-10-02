@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: lightcyan;
+    scroll-behavior: smooth;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: lightseagreen;
+}
+.home-section{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4F5051;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 12%;
+}
+.logo{
+    font-size: 26px;
+}
+.hyperlinks{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home-content{
+    display: flex;
+    width: 100%;
+    height: 88%;
+    background-color: aquamarine;
+}
+.home-left{
+    width: 45%;
+    height: 100%;
+    background-color: beige;
+}
+.home-right{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+}
+.home-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.home-textbox{
+    width: 60%;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.greetings{
+    font-size: 30px;
+}
+.name{
+    font-size: 75px;
+}
+.title{
+    font-size: 30px;
+}
+.description{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.follow-button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 10px 50px;
+    margin-right: 10px;
+}
+.more-button{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 11px 40px;
+}
+.about-section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.about-left{
+    width: 50%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+.about-right{
+    width: 50%;
+    height: 100%;
+    background-color: gainsboro;
+}
+.about-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.about-textbox{
+    width: 90%;
+    background-color: #F2F2F2;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about-heading{
+    font-size: 36px;
+}
+.info-block{
+    margin-top: 25px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.skills-heading{
+    font-size: 22px;
+    color: #4F5051;
+    margin-bottom: 25px;
+}
+.skill-block{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+span{
+    background-color: #4F5051;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 70px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.project-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #4F5051;
+}
+.project-heading{
+    font-size: 36px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.project-container{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+    background-color: #4F5051;
+}
+.card{
+    width: 30%;
+    height: 100%;
+    background-color:cadetblue;
+}
+.c-up{
+    width: 100%;
+    height: 60%;
+    background-color: crimson;
+}
+.c-down{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+.electronics{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.pizza{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.plants{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.downbox{
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    top: 15px;
+}
+.downbox-heading{
+    font-size: 17px;
+    color: #4F5051;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+.downbox-text{
+    font-size: 14px;
+}
+.contact-section{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.contact-uppersection{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    background-color: gainsboro;
+}
+.copyright-bar{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.contact-right{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.contact-formbox{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact-heading1{
+    font-size: 24px;
+}
+.contact-heading2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #CCCCCC;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #CCCCCC;
+    border: none;
+    resize: none;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit-button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 7px 40px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.decoration-area{
+    width: 100%;
+    height: 60%;
+    background-color: gold;
+}
+.socialmedia-section{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+.decoration{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.social-line1{
+    font-size: 30px;
+}
+.social-line2{
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+.transition-bar{
+    width: 95%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.icon-block{
+    width: 50%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+}
+.icon-holder{
+    width: 45px;
+    height: 45px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.home-button{
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 1px solid black;
+}
